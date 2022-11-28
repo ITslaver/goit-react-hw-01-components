@@ -1,0 +1,81 @@
+.statistics {
+  margin-top: 40px;
+  margin-left: 10px;
+  width: 280px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.6), 23px 0 20px -23px rgba(0, 0, 0, 0.6),
+    inset 0 0 40px rgba(0, 0, 0, 0.1);
+
+  border-radius: 3px;
+}
+
+.title {
+  background-color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin: 0;
+  padding: 20px 0;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+}
+
+.statList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+
+  width: calc((100% - 50px) / 5);
+  padding: 10px;
+  border-right: 1px solid rgba(221, 221, 221, 0.7);
+
+  text-align: center;
+}
+
+.item:nth-child(1n + 1) {
+  background-color: #507fcf;
+}
+
+.item:nth-child(2n + 1) {
+  background-color: #5c9b33;
+}
+
+.item:nth-child(3n + 1) {
+  background-color: #c73926;
+}
+
+.item:nth-child(4n + 1) {
+  background-color: #ada209;
+}
+
+.item:nth-child(5n + 1) {
+  background-color: #622979;
+}
+
+.item:last-child {
+  border-right: 0;
+}
+
+.label {
+  color: white;
+  font-size: 12px;
+}
+
+.percentage {
+  color: white;
+  font-size: 14px;
+}
